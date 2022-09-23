@@ -7,8 +7,7 @@
 
 namespace ajwCommon
 {
-	
-	class AJW_KEYBOAR_DLLEXPORT KeyBoard
+	class AJW_KEYBOARD_DLLEXPORT KeyBoard
 	{
 		const static DWORD KEYMAX = 256;
 	private:
