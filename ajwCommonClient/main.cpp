@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#include "../ajwKeyBoard/KeyBoard.h"
+#include "../jw_Input/KeyBoard.h"
 void Example_KeyBoard()
 {
 	ajwCommon::KeyBoard* keyBoard = new ajwCommon::KeyBoard();
