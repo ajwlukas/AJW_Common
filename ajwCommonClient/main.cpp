@@ -2,10 +2,10 @@
 
 using namespace std;
 
-#include "../jw_Input/KeyBoard.h"
+#include "../jw_Input/Input.h"
 void Example_KeyBoard()
 {
-	ajwCommon::KeyBoard* keyBoard = new ajwCommon::KeyBoard();
+	ajwCommon::Input* keyBoard = new ajwCommon::Input();
 
 	while (true)
 	{
