@@ -4,7 +4,6 @@
 
 #include "ajwKeyBoard.h"
 
-
 namespace ajwCommon
 {
 	class AJW_KEYBOARD_DLLEXPORT KeyBoard
@@ -22,7 +21,6 @@ namespace ajwCommon
 		BYTE curState[KEYMAX];
 		BYTE oldState[KEYMAX];
 		BYTE mapState[KEYMAX];
-	
 	
 	public:
 		KeyBoard();
