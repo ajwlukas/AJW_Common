@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#include "../jw_Input/Input.h"
+#include "Input/Input.h"
 void Example_KeyBoard()
 {
 	ajwCommon::Input* keyBoard = new ajwCommon::Input();
@@ -12,6 +12,12 @@ void Example_KeyBoard()
 		keyBoard->Update();
 		if (keyBoard->Down(VK_F1))
 			cout << "Hello World" << endl;
+
+		if (keyBoard->Press(VK_F2))
+			cout << keyBoard->MousePos().x <<"\t" << keyBoard->MousePos().y << endl;
+
+		if (keyBoard->Press(VK_F3))
+			cout << keyBoard->MouseDiff().x <<"\t" << keyBoard->MouseDiff().y << endl;
 	}
 
 	delete keyBoard;
